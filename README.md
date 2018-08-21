@@ -17,8 +17,7 @@
 
 ## How to and other docker-compose use the same network :
 
-#if you not have group network, you can create this, and other docker-compose use this network setting
-
 ```
+#if you not have group network, you can create this, and other docker-compose use this network setting
 ~ $ docker network create --driver bridge imdockgroup
 ```
